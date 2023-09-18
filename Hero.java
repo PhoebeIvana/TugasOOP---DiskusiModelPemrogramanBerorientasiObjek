@@ -28,7 +28,7 @@ public class Hero {
         hero1.getData();
         HeroHealth hero2 = new HeroHealth();
         hero2.setSpecialData("Miya",50,30,21,33,5.5);
-        hero2.getData();;
+        hero2.getData();
 
 
     }
