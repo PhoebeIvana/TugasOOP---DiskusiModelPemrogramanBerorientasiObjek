@@ -33,7 +33,8 @@ public class Hero {
         HeroHealth hero2 = new HeroHealth();
         hero2.setSpecialData("Miya",50,30,21,33,5.5);
         hero2.getData();
-
-
+        HeroSupport hero3 = new HeroSupport();
+        hero3.setSpecialData("Angela", 25, 15, 2, 90.2, 88.5);
+        hero3.getData();
     }
 }
