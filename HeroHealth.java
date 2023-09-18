@@ -2,6 +2,7 @@ public class HeroHealth extends Hero {
     protected int flyingPower;
     protected double manaPower;
 
+    // This function is used to prove the concept of Inheritance.
     public void setSpecialData(String heroName, int attackPower, int defencePower, int difficulty, int flyingPower, double manaPower){
         this.heroName = heroName;
         this.attackPower = attackPower;
@@ -11,6 +12,7 @@ public class HeroHealth extends Hero {
         this.manaPower = manaPower;
     }
 
+    // This function is used to prove the concept of Polymorphism.
     public void getData(){
         System.out.println("============================== Data of Health Hero ==============================");
         System.out.println("Name          : " + this.heroName);
